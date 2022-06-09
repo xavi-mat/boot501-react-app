@@ -6,7 +6,7 @@ import PersonClass from './components/PersonClass/PersonClass';
 import PersonFunc from './components/PersonFunc/PersonFunc';
 
 const bioItems = [
-  `Nací en un Sueca, una pequeña ciudad de Valencia rodeada de arrozales 🌾🌾 y naranjos 🍊🍊, en una familia dedicada al cultivo 🚜 del arroz 🌾 desde hace siglos ⌛.`,
+  `Nací en Sueca, una pequeña ciudad de Valencia rodeada de arrozales 🌾🌾 y naranjos 🍊🍊, en una familia dedicada al cultivo 🚜 del arroz 🌾 desde hace siglos ⌛.`,
   `Mis grandes pasiones son la informática 🖥️ y la educación 👨‍🏫.`,
   `Comencé con los ordenadores a finales de los años 80 (con un MSX... ¡qué tiempos!), y me he dedicado a aprender por mi cuenta varios lenguajes, aplicaciones y gestores de contenido: BASIC, ObjectPascal, C, HTML, Python, PHP, MySQL, SQLite, JavaScript, CSS; Delphi, Lazarus, C++Builder, HotMetal, RPGMaker, GIMP, Ren’Py, WordPress, CPanel, moodle, CSS, Nodejs, Express, MongoDB, Sequelize, XML, Mongoose, React...`,
   `He realizado aplicaciones web de aprendizaje y he colaborado con la gestión informática de varios proyectos académicos.`,

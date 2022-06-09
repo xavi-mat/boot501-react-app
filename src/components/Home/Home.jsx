@@ -1,5 +1,5 @@
 const Home = (props) => {
-    const bioLine = props.bioItems.map(line => <p>{line}</p>)
+    const bioLine = props.bioItems.map((line, num) => <p key={num}>{line}</p>)
     return (
         <div className="container row">
             <div className="col-md-6">

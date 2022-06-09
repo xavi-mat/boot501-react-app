@@ -3,7 +3,7 @@ import jochibi from '../../assets/jochibi.jpg'
 
 export class HomeClass extends Component {
     render() {
-        const bioLine = this.props.bioItems.map(line => <p>{line}</p>)
+        const bioLine = this.props.bioItems.map((line, num) => <p key={num}>{line}</p>)
         return (
             <div className="container row">
                 <div className="col-md-6 mt-3">
