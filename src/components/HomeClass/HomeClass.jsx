@@ -14,7 +14,7 @@ export class HomeClass extends Component {
                     Image in public<br/>
                     <img className="img-fluid rounded" src={'./assets/' + this.props.img + '.jpg'} alt="careto" />
                     Image in src<br/>
-                    <img src={jochibi}/>
+                    <img src={jochibi} alt=""/>
                 </div>
             </div>
         );
