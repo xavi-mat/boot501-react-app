@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>React Day 1 - Exercises</h1>
+        <h3>Exercise 1.2. Component "Person"</h3>
         <h5>Functional Component</h5>
         <div className="mb-3">
           <PersonFunc name="Name1" surname="Surname1" age="40" />
@@ -19,6 +20,7 @@ function App() {
           <PersonClass name="Name5" surname="Surname5" age="80" />
           <PersonClass name="Name6" surname="Surname6" age="90" />
         </div>
+        <h3>Exercise 2. Personal Page</h3>
       </header>
     </div>
   );
