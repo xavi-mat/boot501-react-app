@@ -8,7 +8,9 @@ export class HomeClass extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
     handleClick() {
-        this.setState({chibi: !this.state.chibi});
+        this.setState((state) => ({
+            chibi: !state.chibi
+        }));
     }
     render() {
         const bioLine = this.props.bioItems.map((line, num) => <p key={num}>{line}</p>)
