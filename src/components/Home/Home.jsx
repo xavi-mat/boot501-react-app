@@ -1,11 +1,12 @@
 const Home = (props) => {
     const bioLine = props.bioItems.map(line => <p>{line}</p>)
     return (
-        <div className="container d-flex">
-            <div className="w-50 me-3">
-                <img className="img-fluid" src={'./assets/'+props.img+'.jpg'} />
+        <div className="container row">
+            <div className="col-md-6">
+                <img className="img-fluid" src={'./assets/' + props.img + '.jpg'} alt="careto" />
             </div>
-            <div className="w-50 px-3">
+            <div className="col-md-6 mt-3">
+                <h4>Bio</h4>
                 {bioLine}
             </div>
         </div>
